@@ -108,7 +108,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    <br><br>
 
     DOB: 
-   <input type="date" name="DOB">
+   <input type="date" name="DOB" value="1953-01-01" min="1953-01-01" max="1998-12-31">
    <span class="error">  <?php echo $DOBErr;?></span>
    <br><br>
    <input type="submit" name="submit" value="Submit">  
